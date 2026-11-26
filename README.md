@@ -1,6 +1,4 @@
-# Clarie Carillo — Fixed Personal Portfolio
-
-This corrected package keeps **all files, including the four photos, in the same root folder**. This avoids the common GitHub Pages issue where the HTML is uploaded but the `images` folder is missing or nested in the wrong place.
+# Clarie Carillo
 
 ## Files to upload together
 - `index.html`
