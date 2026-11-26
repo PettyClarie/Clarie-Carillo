@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The personal portfolio of Clarie Carillo — student, creative thinker, and future IT professional.">
+  <meta name="theme-color" content="#f8eff2">
+  <title>Clarie Carillo | Personal Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="header" id="home">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Clarie Carillo home">
+        <img src="logo.svg" alt="" class="brand-mark">
+        <span>Clarie Carillo</span>
+      </a>
+      <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-button" id="themeButton" aria-label="Toggle dark mode" type="button">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="kicker"><span class="kicker-dot"></span> A LITTLE SPACE ABOUT ME</p>
+        <h1>Hi, I'm <em>Clarie.</em><br>Welcome to my world.</h1>
+        <p class="hero-lead">A student, a dreamer, and a creative soul who loves discovering new things, building ideas, and growing one step at a time.</p>
+        <div class="hero-buttons">
+          <a class="button button-main" href="#about">Get to know me <span>↗</span></a>
+          <button class="button button-quiet" id="helloButton" type="button">Send a little hello ♡</button>
+        </div>
+        <p class="hello-note" id="helloNote" aria-live="polite"></p>
+        <div class="hero-meta"><span>✦</span> BSIT Student <i></i> Future IT Professional</div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame hero-photo">
+          <img src="clarie-portrait.jpg" alt="Clarie standing in a shopping mall">
+        </div>
+        <div class="photo-note"><span class="note-sparkle">✳</span><span>just being<br><strong>myself</strong></span></div>
+        <span class="orbit orbit-a"></span><span class="orbit orbit-b"></span>
+        <div class="tiny-label">CLAIRE / 01</div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="wrap strip-inner"><span>curious mind</span><b>✦</b><span>creative heart</span><b>✦</b><span>big dreams</span><b>✦</b><span>always learning</span></div>
+    </section>
+
+    <section class="section wrap about-section" id="about">
+      <div class="section-heading">
+        <p class="kicker">01 / ABOUT ME</p>
+        <h2>A little about <em>Clarie</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p class="large-copy">I believe every small step can lead to something amazing.</p>
+          <p>I'm Clarie, a student from Mabalacat City College. I enjoy cats, games, designing websites, and exploring creative ideas. I love learning how technology works and finding ways to turn what I imagine into something real.</p>
+          <p>My goal is to keep improving my skills, gain meaningful experience, and become an IT professional who creates useful and beautiful digital experiences.</p>
+          <div class="interest-tags"><span>Web Design</span><span>Technology</span><span>Games</span><span>Creative Ideas</span><span>Learning</span></div>
+        </div>
+        <div class="about-aside">
+          <div class="aside-quote">“Keep growing, keep creating, and don't be afraid to start.”</div>
+          <div class="aside-caption">A reminder to myself <span>♡</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="wrap">
+        <div class="section-heading heading-row">
+          <div><p class="kicker">02 / PHOTO DIARY</p><h2>Little moments, <em>big memories.</em></h2></div>
+          <p class="heading-side">A few snapshots from my everyday life.<br>Tap a photo to take a closer look.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-tall" data-image="clarie-smile.jpg" aria-label="View photo of Clarie smiling by a brick wall">
+            <img src="clarie-smile.jpg" alt="Clarie smiling with her eyes closed in front of a brick wall">
+            <span class="gallery-caption">soft little moments <b>↗</b></span>
+          </button>
+          <button class="gallery-item" data-image="clarie-laugh.jpg" aria-label="View photo of Clarie laughing">
+            <img src="clarie-laugh.jpg" alt="Clarie smiling and holding a small object">
+            <span class="gallery-caption">happy days <b>↗</b></span>
+          </button>
+          <button class="gallery-item" data-image="clarie-outing.jpg" aria-label="View photo of Clarie on an outing">
+            <img src="clarie-outing.jpg" alt="Clarie wearing a red top and glasses outdoors">
+            <span class="gallery-caption">out and about <b>↗</b></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap projects-section" id="projects">
+      <div class="section-heading">
+        <p class="kicker">03 / WHAT I'M LEARNING</p>
+        <h2>Ideas I'm <em>bringing to life.</em></h2>
+        <p class="section-subtitle">A few areas that inspire me as I continue my journey in IT.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-symbol">✿</div><p class="project-index">01 — DESIGN</p><h3>Web Experiences</h3><p>Creating clean, friendly, and responsive websites that are easy and enjoyable to use.</p><span class="project-link">HTML · CSS · JavaScript</span></article>
+        <article class="project-card"><div class="project-symbol">⌘</div><p class="project-index">02 — TECHNOLOGY</p><h3>Learning by Building</h3><p>Exploring programming, databases, and the tools that help turn ideas into working projects.</p><span class="project-link">Programming · SQL</span></article>
+        <article class="project-card"><div class="project-symbol">♡</div><p class="project-index">03 — CREATIVITY</p><h3>Always Exploring</h3><p>Trying new things, collecting inspiration, and finding creative ways to solve problems.</p><span class="project-link">Curiosity · Growth</span></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="wrap contact-content">
+        <p class="kicker">04 / SAY HELLO</p>
+        <h2>Let's make something<br><em>meaningful.</em></h2>
+        <p>Thank you for spending a little time in my corner of the internet.</p>
+        <a class="button button-light" href="mailto:your-email@example.com">Get in touch <span>↗</span></a>
+        <small>Replace the sample email address with your own before publishing.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="#home"><img src="logo.svg" alt="" class="brand-mark"><span>Clarie Carillo</span></a>
+      <p>Made with ♡ by Clarie · <span id="year"></span></p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Expanded photo" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <img id="lightboxImage" src="" alt="Expanded photo of Clarie">
+  </div>
+</body>
+</html>
